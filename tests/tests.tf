@@ -4,7 +4,8 @@ terraform {
 }
 
 module "azure_regions" {
-  source = "../"
+  #source      = "../"
+  source       = "github.com/TaleLearnCode/terraform-azure-regions"
   azure_region = "eastus2"
 }
 
